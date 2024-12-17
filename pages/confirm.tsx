@@ -12,7 +12,7 @@ const ConfirmPage = () => {
           <p>Selected</p>
 
           <div>
-            <Image src="/images/bg-1.jpeg" alt="" fill sizes="100%" />
+            <Image src="/images/massage-1.jpeg" alt="" fill sizes="100%" />
           </div>
 
           <p>Stress Reduction and Relaxation</p>

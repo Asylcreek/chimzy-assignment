@@ -1,0 +1,104 @@
+.section {
+  composes: container from "./shop.module.scss";
+  --max-width: 71.875rem;
+
+  padding-top: 3.75rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.detailsContainer {
+  color: rgb(var(--color-white));
+
+  & > h1 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: rgb(var(--color-site-m));
+  }
+
+  & > div {
+    margin-top: 3.125rem;
+    width: 22.75rem;
+    color: rgb(var(--color-site-m));
+
+    & > p:first-of-type {
+      font-size: 1.625rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+    }
+
+    & > div:first-of-type {
+      position: relative;
+      width: 22.75rem;
+      height: 15.625rem;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      margin-bottom: 2.8125rem;
+
+      & > img {
+        object-fit: cover;
+      }
+    }
+
+    & > p:nth-of-type(2) {
+      font-size: 1.125rem;
+      line-height: 1.6875rem;
+      color: rgb(var(--color-site-s));
+    }
+
+    & > div:nth-of-type(2) {
+      margin: 1rem 0;
+      display: flex;
+      align-items: center;
+
+      & > p:first-of-type {
+        font-size: 1.625rem;
+        font-weight: 900;
+        color: rgb(var(--color-site-t));
+      }
+
+      & > p:last-of-type {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: rgba(var(--color-black), 0.5);
+      }
+    }
+  }
+}
+
+.calendarContainer {
+  width: 40.8125rem;
+  padding-top: 4.125rem;
+
+  & > h2 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: rgb(var(--color-site-m));
+  }
+
+  & > p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: rgb(var(--color-site-s));
+    margin-bottom: 1rem;
+  }
+
+  & > button:first-of-type {
+    background: var(--gradient-a);
+    color: rgb(var(--color-white));
+    border-radius: 1.75rem;
+    padding: 0.625rem 1.5rem;
+    text-transform: capitalize;
+    width: 100%;
+  }
+
+  & > button:last-of-type {
+    display: block;
+    color: rgb(var(--color-site-m));
+    margin: 1.9375rem auto 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
