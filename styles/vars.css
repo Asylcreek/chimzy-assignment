@@ -1,0 +1,25 @@
+:root {
+  /* each color var is a set of rgb values */
+  /* which would be use as so: `color: rgb(var(--color-site-a)) OR color: rgba(var(--color-site-a), 50%)` */
+  --color-site-a: 28, 28, 28;
+  --color-site-b: 40, 161, 123;
+  --color-site-c: 200, 210, 223;
+  --color-site-d: 225, 230, 237;
+  --color-site-e: 95, 115, 140;
+  --color-site-f: 53, 63, 80;
+  --color-site-g: 117, 117, 117;
+  --color-site-h: 195, 183, 163;
+  --color-site-i: 248, 226, 216;
+  --color-site-j: 83, 51, 38;
+  --color-site-k: 193, 30, 34;
+  --color-site-l: 33, 131, 223;
+
+  --color-white: 255, 255, 255;
+  --color-black: 0, 0, 0;
+
+  --gradient-a: linear-gradient(178.1deg, #2183df 1.62%, #13518c 114.48%);
+
+  --shadow-a: 0px 0.9px 4px 0px rgba(23, 27, 30, 0.16);
+
+  --z-index-header: 10;
+}
