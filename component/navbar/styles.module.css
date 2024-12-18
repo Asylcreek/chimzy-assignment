@@ -1,0 +1,112 @@
+/* Sidebar styles */
+
+.sidebar {
+  background-color: #0c0f11;
+  padding: 56px 17px 18px;
+  height: 100vh;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+
+  
+}
+.collapsedSidebar {
+  opacity: 20%;
+  transition: all 70s ease-in-out;
+  min-width: 80px !important;
+}
+
+.collapsedSidebar1 {
+  background-color: #101828 !important;
+  background-blend-mode: #000 multiply;
+  transition: all 0.3s ease-in-out;
+  min-width: 80px !important;
+}
+
+.logoContainer > img {
+  width: 117.3px;
+  height: auto;
+  object-fit: cover;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1.3rem;
+  width: 100%;
+}
+
+.rootNavLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding: 0.8rem 0.8rem;
+  text-transform: capitalize;
+  background: #171717;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.rootNavLink:hover {
+  background: #f58220;
+  /* Hover effect on parent */
+  /* transform: translateY(-4px); */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.rootNavLink.nohover:hover {
+  background: #171717;
+  /* Prevent hover effect when no-hover class is added */
+  transform: none;
+  box-shadow: none;
+}
+
+.Subpage {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Metropolis", sans-serif;
+  line-height: 24px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.Subpage:hover {
+  color: #f58220;
+}
+
+/* icons size */
+.customIcon {
+  color: #ffffff !important;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Metropolis", sans-serif;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.noscrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.noscrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* .bottomNav {
+  color: rgb(var(--color-white));
+  width: 100%;
+}
+
+.bottomRootNavLink:not(:last-child) {
+  padding-bottom: 2.4rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid rgb(var(--color-site-m));
+} */
