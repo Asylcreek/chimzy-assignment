@@ -1,3 +1,5 @@
+"use client";
+
 import React, { FC } from "react";
 import PropTypes from "prop-types";
 import styles from "./button.module.css"; // Import as 'styles'
