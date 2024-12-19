@@ -31,9 +31,12 @@ const AboutUsPage = () => {
                 About Heaven Spa
               </h2>
               <p className="text-white text-[18px] leading-[29px]">
-                Just filling in some content till I decide what I want to fill
-                Into this space in the mean time lets hold on to this text.
-                feeling like I have the masterplan you know
+                Getting a massage, on a regular basis is one of the healthiest
+                things you can do for yourself. Your well-being deserves the top
+                spot. Because with an hour of you-time, you’re better equipped
+                to conquer the rest of that to-do list. Heaven spa is designed
+                to provide rest and help you experience the unbounded state of
+                rest
               </p>
               <Link href={routes.UserManagement()}>
                 <div className="w-[264px] pt-[10px]">
