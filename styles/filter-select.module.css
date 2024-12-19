@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #D0D5DD;
+  border: 1px solid #d0d5dd;
   border-radius: 1.4rem;
   padding: 0 1.4rem;
   cursor: pointer;
@@ -32,7 +32,7 @@
 
 .input::placeholder {
   color: #667085;
-  font-family: "Metropolis", sans-serif;
+  font-family: var(--font-avenir);
   font-size: 12px;
   font-weight: 500;
   line-height: 24px;

@@ -9,8 +9,6 @@
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.5s ease-in-out;
-
-  
 }
 .collapsedSidebar {
   opacity: 20%;
@@ -69,7 +67,7 @@
 .Subpage {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Metropolis", sans-serif;
+  font-family: var(--font-avenir);
   line-height: 24px;
   text-align: center;
   transition: all 0.3s ease-in-out;
@@ -84,7 +82,7 @@
   color: #ffffff !important;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Metropolis", sans-serif;
+  font-family: var(--font-avenir);
   line-height: 24px;
   text-align: center;
 }

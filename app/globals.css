@@ -5,7 +5,7 @@
 body {
   color: #5f738c;
   background: #344054;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
   width: 100%;
   scroll-behavior: smooth;
 }
@@ -35,7 +35,7 @@ img {
 nav ul li {
   font-size: 16px;
   font-weight: 400;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
   line-height: 21.6px;
   text-align: center;
 }
@@ -43,14 +43,14 @@ nav ul li {
 nav ul li span {
   font-size: 10px;
   font-weight: 900;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
   line-height: 21.6px;
   text-align: center;
 }
 footer ul li span {
   font-size: 16px;
-  font-weight: 900;
-  font-family: "Avenir", sans-serif;
+  font-weight: 500;
+  font-family: var(--font-avenir);
   line-height: 21.6px;
   text-align: center;
 }
@@ -58,40 +58,40 @@ footer ul li span {
 /* fonts */
 h1 {
   font-weight: 400;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
 }
 
 h2 {
   font-weight: 400;
   font-size: 20px;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
 }
 
 h3 {
   font-size: 20px;
   font-weight: 400;
   letter-spacing: -2%;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
 }
 
 h4 {
   font-size: 20px;
   font-weight: 400;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
 }
 
 h5 {
   font-weight: 400;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
 }
 
 h6 {
   font-size: 20px;
   line-height: 32px;
   font-weight: 400;
-  font-family: "Avenir", sans-serif;
+  font-family: var(--font-avenir);
 }
 p {
   /* font-weight: 700; */
-  font-family: "Geist Sans", sans-serif;
+  font-family: var(--font-avenir);
 }

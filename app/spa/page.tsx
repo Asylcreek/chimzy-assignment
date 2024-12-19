@@ -1,5 +1,7 @@
 "use client";
 
+import shopStyles from "@/styles/shop.module.scss";
+
 import shapeOne from "@/public/images/a30f3468f6f468172e5c912e0d03b9bc.jpeg";
 import ImageTwo from "@/public/images/79e076bb0dd61a4debfe6f0e0d4b2f6e.jpeg";
 import ImageThree from "@/public/images/f57323af757566c57dad09d858652213.jpeg";
@@ -13,6 +15,7 @@ import Image from "next/image";
 import Link from "next/link";
 import routes from "@/helpers/routes";
 import Button from "@/component/buttonSizes/Button";
+import SvgIcon from "@/components/svg-icon/svg-icon.component";
 
 const SpaPage = () => {
   return (
@@ -29,28 +32,28 @@ const SpaPage = () => {
             </p>
           </div>
         </div>
-        <div className="flex pt-[10px] flex-col at594:flex-row gap-[20px] at594:items-center justify-between w-full max-w-[1020px]">
-          <div className="flex justify-center items-center h-[48px] w-full max-w-[322px] px-[20px] border-[1px] shadow-custom-light  rounded-[8px] overflow-hidden">
-            <input
-              className="bg-none h-[48px] w-full focus:outline-none"
-              type="text"
-              placeholder="Find service"
-            />
-            <span className="flex justify-center items-center gap-[10px] pl-[13px] border-l-[2px] border-[#E1E6ED] text-[#28A17B]">
-              <FaSearch />
-              Search
-            </span>
-          </div>
-          <div>
-            <select
-              className="flex justify-center items-center h-[40px] px-[13px] border-[1px] shadow-custom-light  text-[#353F50] rounded-[8px]"
-              id="events"
-              name="events"
-            >
-              <option value="Less">All</option>
-              <option value="All">Less</option>
+        <div style={{ width: "100%" }} className={shopStyles.searchSection}>
+          <form>
+            <div>
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Find service"
+              />
+
+              <hr />
+
+              <button type="button">
+                <SvgIcon iconName="search" />
+                Search
+              </button>
+            </div>
+
+            <select>
+              <option value="">Sort by</option>
             </select>
-          </div>
+          </form>
         </div>
         <section className=" relative bg-white flex flex-col justify-center items-start   h-auto w-full ">
           <div className="static siteWapper flex flex-col justify-center items-center w-full  my-0 mx-auto">
