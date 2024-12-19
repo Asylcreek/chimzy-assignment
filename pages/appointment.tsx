@@ -1,10 +1,17 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 import styles from "~/styles/appointment.module.scss";
+import "react-calendar/dist/Calendar.css";
 
 import Navbar from "@/component/navbar/navbar.component";
+import Calendar from "react-calendar";
+
+import routes from "@/helpers/routes";
 
 const AppointmentPage = () => {
+  const router = useRouter();
+
   return (
     <>
       <Navbar />
@@ -39,9 +46,18 @@ const AppointmentPage = () => {
 
           <p>Selected Date:</p>
 
-          <div></div>
+          <div>
+            <Calendar />
+          </div>
 
-          <button type="button">Confirm date</button>
+          <button
+            type="button"
+            onClick={() => {
+              router.push(routes.confirm());
+            }}
+          >
+            Confirm date
+          </button>
 
           <button type="button">Cancel</button>
         </div>

@@ -84,15 +84,12 @@ const Navbar: React.FC<NavbarProps> = ({ openOverlay }) => {
             </li>
             <li className="py-[10px] px-[10px] capitalize ">
               <Link
-                href={routes.store()}
+                href={routes.shop()}
                 className={`capitalize text-sm ${
-                  pathname === "/store" ? "font-normal" : " font-bold"
+                  pathname === routes.shop() ? "font-normal" : " font-bold"
                 } text-[#354052] hover:text-red-500`}
               >
-                Store{" "}
-                <span className="bg-[#389F55] text-white rounded-[2px] p-1">
-                  Coming Soon
-                </span>
+                Shop
               </Link>
             </li>
             <li className="py-[10px] px-[10px] capitalize ">
@@ -107,14 +104,14 @@ const Navbar: React.FC<NavbarProps> = ({ openOverlay }) => {
             </li>
 
             <li className="flex gap-[33px] justify-center items-center ">
-              <Link href={routes.UserManagement()}>
+              <Link href={routes.spa()}>
                 <div className="w-[159px] pl-[18px]">
                   <Button size="medium">Book Session</Button>
                 </div>
               </Link>
             </li>
             <li className="flex gap-[33px] justify-center items-center ">
-              <Link href={routes.UserManagement()}>
+              <Link href={routes.aboutUs() + "#form"}>
                 <div className="w-[187px] pl-[18px]">
                   <Button size="large">Become a member</Button>
                 </div>

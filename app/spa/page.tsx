@@ -14,7 +14,6 @@ import Link from "next/link";
 import routes from "@/helpers/routes";
 import Button from "@/component/buttonSizes/Button";
 
-
 const SpaPage = () => {
   return (
     <main className="flex pt-[80px] justify-center items-center w-full bg-white">
@@ -101,7 +100,7 @@ const SpaPage = () => {
                     </div>
                   </div>
 
-                  <Link className="w-full" href={routes.UserManagement()}>
+                  <Link className="w-full" href={routes.appointment()}>
                     <div className="w-full ">
                       <Button size="large">Book a session</Button>
                     </div>
@@ -149,7 +148,7 @@ const SpaPage = () => {
                     </div>
                   </div>
 
-                  <Link className="w-full" href={routes.UserManagement()}>
+                  <Link className="w-full" href={routes.appointment()}>
                     <div className="w-full ">
                       <Button size="large">Book a session</Button>
                     </div>
@@ -201,7 +200,7 @@ const SpaPage = () => {
                     </div>
                   </div>
 
-                  <Link className="w-full" href={routes.UserManagement()}>
+                  <Link className="w-full" href={routes.appointment()}>
                     <div className="w-full ">
                       <Button size="large">Book a session</Button>
                     </div>
@@ -249,7 +248,7 @@ const SpaPage = () => {
                     </div>
                   </div>
 
-                  <Link className="w-full" href={routes.UserManagement()}>
+                  <Link className="w-full" href={routes.appointment()}>
                     <div className="w-full ">
                       <Button size="large">Book a session</Button>
                     </div>
@@ -300,7 +299,7 @@ const SpaPage = () => {
                     </div>
                   </div>
 
-                  <Link className="w-full" href={routes.UserManagement()}>
+                  <Link className="w-full" href={routes.appointment()}>
                     <div className="w-full ">
                       <Button size="large">Book a session</Button>
                     </div>
@@ -357,7 +356,7 @@ const SpaPage = () => {
                     </div>
                   </div>
 
-                  <Link className="w-full" href={routes.UserManagement()}>
+                  <Link className="w-full" href={routes.appointment()}>
                     <div className="w-full ">
                       <Button size="large">Book a session</Button>
                     </div>

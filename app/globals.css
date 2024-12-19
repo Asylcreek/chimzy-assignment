@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  color: #4B4B4B;
+  color: #5f738c;
   background: #344054;
   font-family: "Avenir", sans-serif;
   width: 100%;
@@ -31,8 +31,6 @@ img {
   max-width: 100%; /* Optional for responsiveness */
   max-height: 100%; /* Optional for responsiveness */
 }
-
-
 
 nav ul li {
   font-size: 16px;
@@ -83,7 +81,6 @@ h4 {
 }
 
 h5 {
-  
   font-weight: 400;
   font-family: "Avenir", sans-serif;
 }
@@ -95,7 +92,6 @@ h6 {
   font-family: "Avenir", sans-serif;
 }
 p {
-  font-weight: 700;
-  font-family: 'Geist Sans', sans-serif;
-
+  /* font-weight: 700; */
+  font-family: "Geist Sans", sans-serif;
 }

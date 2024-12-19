@@ -1,18 +1,21 @@
-const home = () => '/';
+const home = () => "/";
 
-const aboutUs = () => '/about';
+const aboutUs = () => "/about";
 
-const store= () => '/store';
+const store = () => "/store";
 
-const spa = () => '/spa';
+const spa = () => "/spa";
 
-const forgotPassword = () => '/forgot-password';
+const forgotPassword = () => "/forgot-password";
 
-const UserManagement = () => '/User-management';
-const invoices = () => '/invoices';
+const UserManagement = () => "/User-management";
+const invoices = () => "/invoices";
 const invoice = (id: string) => invoices() + `/${id}`;
-const settings = () => '/settings';
-const publicInvoice = (invoiceId: string) => '/p' + invoice(invoiceId);
+const settings = () => "/settings";
+const publicInvoice = (invoiceId: string) => "/p" + invoice(invoiceId);
+const appointment = () => "/appointment";
+const confirm = () => "/confirm";
+const shop = () => "/shop";
 
 const routes = {
   home,
@@ -21,7 +24,9 @@ const routes = {
   spa,
   forgotPassword,
   UserManagement,
- 
+  appointment,
+  confirm,
+  shop,
 };
 
 export default routes;

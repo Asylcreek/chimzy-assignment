@@ -1,7 +1,5 @@
-
-
 import React from "react";
-import playbutton from "@/public/icon/Play Button.png"
+import playbutton from "@/public/icon/Play Button.png";
 import Image from "next/image";
 import shapeTwo from "@/public/images/6fef77eb79b8a16b6f5b7c3e3991037e.jpeg";
 
@@ -12,6 +10,7 @@ const VideoPlayer: React.FC = () => {
         src="/videoplayback.mp4" // Use relative path
         width="1000"
         height="360"
+        muted
         controls
         loop
         className="relative rounded-md text-red-900 shadow-lg"

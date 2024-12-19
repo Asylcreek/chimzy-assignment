@@ -46,28 +46,28 @@ const Footer = () => {
                       <ul className=" flex flex-col justify-center items-start w-full gap-[10px]">
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               About Us
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className="text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className="text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Privacy Policy
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className="text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className="text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Terms of use
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Contact us
                             </span>
                           </Link>
@@ -81,21 +81,21 @@ const Footer = () => {
                       <ul className=" flex flex-col justify-start items-start w-full gap-[10px]">
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Phone: +1 9193455412
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               info@heavenspa.com
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Hours: Mon. - Fri. 8AM - 5PM
                             </span>
                           </Link>
@@ -109,21 +109,21 @@ const Footer = () => {
                       <ul className=" flex flex-col justify-start items-start w-full gap-[10px]">
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Phone: +1 9193455412
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               1000 N 4th Street, R18, Fairfield, IA 545536
                             </span>
                           </Link>
                         </li>
                         <li data-aos="fade-up">
                           <Link href={routes.aboutUs()}>
-                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:text-[#5C176F]">
+                            <span className=" text-[16px] leading-[16px] text-[#FFFFFF] hover:underline">
                               Hours: Mon. - Fri. 8AM - 5PM
                             </span>
                           </Link>

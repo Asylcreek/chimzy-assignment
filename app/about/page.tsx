@@ -1,7 +1,5 @@
 "use client";
 
-
-
 import ImageBackground from "@/component/image-prop/imageBackground.component";
 import ImageBackgroundThree from "@/component/image-prop/imageBackgroundthree.component";
 import background from "@/public/images/a6f90d73b917435a50e4e6ea8123419d.jpeg";
@@ -18,9 +16,6 @@ import shapeThree from "@/public/icon/Group.png";
 import shapeFort from "@/public/icon/branch-with-leaves 3.png";
 import NewsletterForm from "@/component/form/newletter.component";
 import VideoPlayer from "@/component/video/videoplayer.component";
-
-
-
 
 const AboutUsPage = () => {
   return (
@@ -52,7 +47,6 @@ const AboutUsPage = () => {
               alt="image"
               className="hidden sm:flex absolute top-[199px] right-[10px] w-[161px] h-[155px] object-cover "
             />
-            
           </ImageBackground>
         </div>
       </section>
@@ -142,7 +136,7 @@ const AboutUsPage = () => {
         <div className="static siteWapper flex flex-col justify-center items-center w-full at500:px-[72px] my-0 mx-auto">
           <div className="flex flex-col gap-[10px] justify-center items-center w-full">
             <h1 className="text-[#28A17B] text-[26px] leading-[35.52px]">
-              ABOUT Us
+              ABOUT US
             </h1>
             <div className="flex gap-5 flex-col justify-center w-full text-center pb-[50px] sm:max-w-[406px]">
               <p className="text-[18px] leading-[27px] text-[#4B4B4B]">
@@ -181,7 +175,10 @@ const AboutUsPage = () => {
           </div>
         </div>
       </section>
-      <section className="flex relative  justify-center items-start w-full pb-[50px] sm:pb-[160px]  ">
+      <section
+        className="flex relative  justify-center items-start w-full pb-[50px] sm:pb-[160px]"
+        id="form"
+      >
         <ImageBackgroundThree className="sm:!h-[500px] " imageUrl={background1}>
           <div className="flex flex-col md:flex-row gap-[30px] justify-between items-center w-full">
             <div className="flex flex-col gap-[11px] w-full max-w-[496px]">
