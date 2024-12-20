@@ -15,23 +15,21 @@ import shapeFive from "@/public/icon/Group22.png";
 import shapeSix from "@/public/icon/Subtract.png";
 import shapeSeven from "@/public/icon/leaves 1.png";
 
-
-
-
 export default function Home() {
   return (
     <main className="flex  flex-col justify-center items-start bg-white pb-[80px] w-full">
       <section className="flex h-[90vh] justify-center items-start w-full">
         <ImageBackground imageUrl={background}>
           <div className="flex gap-[11px] flex-col justify-center items-start w-full max-w-[496px]">
-            <h2 className="text-white !font-[350] text-[52px] leading-[60px]">
-              Your serenity is our mission.
-            </h2>
+            <h1 className="text-white font-[900] text-[52px] leading-[60px]">
+              The Massage Spa You Need
+            </h1>
             <p className="text-white text-[18px] leading-[29px]">
-              Heaven Spa is your ultimate relaxation destination; we have
-              something for everyone. Leveraging energy, frequency, and
-              vibration to activate dimensionless potential for electric or
-              magnetic information within your body.
+              Heaven Spa is your ultimate relaxation destination in Fairfield,
+              Iowa. Experience the best massage in Fairfield and indulge in a
+              luxury massage today. We harness energy, frequency, and vibration
+              to unlock the limitless potential within your body with luxury
+              massages for enhanced well-being.
             </p>
             <Link href={routes.UserManagement()}>
               <div className="w-[264px] pt-[10px]">
@@ -58,14 +56,14 @@ export default function Home() {
               <div className="flex w-full h-[466px]">
                 <Image
                   src={imageOne}
-                  alt="image"
+                  alt="Therapist performing a soothing massage on a client at Heaven Spa in Iowa"
                   className="flex h-auto w-full object-cover "
                 />
               </div>
               <div className="flex gap-[17px] flex-col justify-center items-start w-full ">
-                <h1 className="text-[#212121] text-[26px] leading-[35.52px]">
+                <p className="text-[#212121] text-[26px] leading-[35.52px]">
                   Stress Reduction and Relaxation
-                </h1>
+                </p>
                 <p className="text-[18px] leading-[27px] text-[#4B4B4B]">
                   A potent resurfacing treatment using powerful exfoliation and
                   renewal techniques to promote smoother, younger looking skin
@@ -74,9 +72,9 @@ export default function Home() {
                 </p>
 
                 <div className="flex justify-center items-center gap-[17px] ">
-                  <h1 className="text-[#28A17B] text-[26px] leading-[35.52px]">
+                  <p className="text-[#28A17B] text-[26px] leading-[35.52px]">
                     $312
-                  </h1>
+                  </p>
                   <hr className="h-[1px] w-[21px] rotate-[-90deg] bg-[#B6B6B5] border-[1px] border-solid border-[#B6B6B5]" />
                   <span className="text-[#00000080] !font-[900] text-[20px] leading-[27.32px]">
                     90Minutes
@@ -94,14 +92,14 @@ export default function Home() {
               <div className="flex w-full h-[466px]">
                 <Image
                   src={imageTwo}
-                  alt="image"
+                  alt="Client receiving a rejuvenating bath at Heaven Spa in Iowa with natural products"
                   className="flex h-auto w-full object-cover "
                 />
               </div>
               <div className="flex gap-[17px] flex-col justify-center items-start w-full ">
-                <h1 className="text-[#212121] text-[26px] leading-[35.52px]">
+                <p className="text-[#212121] text-[26px] leading-[35.52px]">
                   Reflexology
-                </h1>
+                </p>
                 <p className="text-[18px] leading-[27px] text-[#4B4B4B]">
                   Looking after your body isn't just about diets and detox. A
                   luxurious body care ritual can transform the way you feel
@@ -110,9 +108,9 @@ export default function Home() {
                 </p>
 
                 <div className="flex justify-center items-center gap-[17px] ">
-                  <h1 className="text-[#28A17B] text-[26px] leading-[35.52px]">
+                  <p className="text-[#28A17B] text-[26px] leading-[35.52px]">
                     $312
-                  </h1>
+                  </p>
                   <hr className="h-[1px] w-[21px] rotate-[-90deg] bg-[#B6B6B5] border-[1px] border-solid border-[#B6B6B5]" />
                   <span className="text-[#00000080] !font-[900] text-[20px] leading-[27.32px]">
                     90Minutes
@@ -130,14 +128,14 @@ export default function Home() {
               <div className="flex w-full h-[466px]">
                 <Image
                   src={imageThree}
-                  alt="image"
+                  alt="Relaxing spa environment at Heaven Spa in Iowa with soft lighting and candles."
                   className="flex h-auto w-full object-cover "
                 />
               </div>
               <div className="flex gap-[17px] flex-col justify-center items-start w-full ">
-                <h1 className="text-[#212121] !font-[400] text-[26px] leading-[35.52px]">
+                <p className="text-[#212121] !font-[400] text-[26px] leading-[35.52px]">
                   Aroma therapy Massage
-                </h1>
+                </p>
                 <p className="text-[18px] leading-[27px] text-[#4B4B4B]">
                   Encompassing the most powerful biological actives available
                   from both ‘above and below’ the earth’s surface, Quantum’
@@ -147,9 +145,9 @@ export default function Home() {
                 </p>
 
                 <div className="flex justify-center items-center gap-[17px] ">
-                  <h1 className="text-[#28A17B] text-[26px] leading-[35.52px]">
+                  <p className="text-[#28A17B] text-[26px] leading-[35.52px]">
                     $312
-                  </h1>
+                  </p>
                   <hr className="h-[1px] w-[21px] rotate-[-90deg] bg-[#B6B6B5] border-[1px] border-solid border-[#B6B6B5]" />
                   <span className="text-[#00000080] !font-[900] text-[20px] leading-[27.32px]">
                     90Minutes
@@ -175,9 +173,9 @@ export default function Home() {
             <p className="text-white !font-[350] text-[30px] leading-[29px]">
               We firmly believe that there are endless ways to relax here at
             </p>
-            <h2 className="text-white !font-[350] text-[47px] leading-[64px]">
+            <p className="text-white !font-[350] text-[47px] leading-[64px]">
               Heaven Spa
-            </h2>
+            </p>
             <Link href={routes.UserManagement()}>
               <div className="w-[264px] pt-[10px]">
                 <Button size="medium">Book Now</Button>
